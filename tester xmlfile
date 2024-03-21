@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<listeners>
+		 <listener class-name="Final_Project.TestListeners" />
+    </listeners>
+  <test name="Test">
+	  <parameter name="username" value="RiyaKs"/>
+        <parameter name="password" value="Riyaks@123"/>
+    <classes>
+      <class name="Final_Project.DemoBlaze">
+      <methods>
+                <include name="signUp" />
+                <include name="login" />
+                <include name="logoPresentTest" />  
+                <include name="addToCartTest" /> 
+                <include name="removeFromCartTest" />
+                
+            </methods>
+          </class>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
